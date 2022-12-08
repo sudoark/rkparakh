@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.background-image{
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.logo img{
+    width: 400px;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-block: 20px;
+}
+
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-list li a:hover{
+    color: blueviolet;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 70vh;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.firsthalf{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-big{
+    font-size: 30px;
+    white-space: nowrap;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.text-small{
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: -webkit-center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-transform: capitalize;
+}
+
