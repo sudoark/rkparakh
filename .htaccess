@@ -8,5 +8,5 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 
 <IfModule mod_header.c>
-Header always append X-Frame-Options SAMEORIGIN
+  Header always append X-Frame-Options SAMEORIGIN
 </IfModule>
