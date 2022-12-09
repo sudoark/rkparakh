@@ -5,8 +5,10 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
 
-
+X-Frame-Options: Deny
 
 <IfModule mod_header.c>
   Header always append X-Frame-Options SAMEORIGIN
 </IfModule>
+
+Conten-Security-Policy: frame-ancestors 'none'
